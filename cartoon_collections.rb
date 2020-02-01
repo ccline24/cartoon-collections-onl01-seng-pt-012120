@@ -3,10 +3,8 @@ def roll_call_dwarves(array)
      puts "#{index+1}. #{name}"
    end 
  end 
-
  roll_call_dwarves(dwarves)
 
- planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(array)
    array.collect do |word| 
